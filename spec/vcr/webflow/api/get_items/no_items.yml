@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.webflow.com/sites/6048c57f255aff50533565bf/collections
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - Bearer <WEBFLOW_API_TOKEN>
+      Accept-Version:
+      - 1.0.0
+      Connection:
+      - close
+      Host:
+      - api.webflow.com
+      User-Agent:
+      - http.rb/5.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 31 May 2021 11:09:02 GMT
+      Etag:
+      - W/"arMfhBv634SfndyDOD0h8A=="
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '59'
+      X-Response-Time:
+      - 30.076ms
+      X-Wf-Rid:
+      - c6558753-5485-4925-95d5-d3589a4d70a6
+      Content-Length:
+      - '1737'
+      Connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '[{"_id":"6048c57f255aff31be3565cb","lastUpdated":"2021-03-10T13:11:33.700Z","createdOn":"2021-01-22T20:05:10.724Z","name":"Forms","slug":"forms","singularName":"Form"},{"_id":"6048c57f255aff370f3565ca","lastUpdated":"2021-03-10T13:11:33.690Z","createdOn":"2021-01-14T16:55:35.029Z","name":"FAQs","slug":"faqs","singularName":"FAQ"},{"_id":"6048c57f255aff41433565c9","lastUpdated":"2021-03-10T13:11:33.681Z","createdOn":"2021-01-12T01:50:06.685Z","name":"Events","slug":"events","singularName":"Event"},{"_id":"6048c57f255aff5fe43565c8","lastUpdated":"2021-04-27T08:29:21.155Z","createdOn":"2021-01-11T23:28:29.566Z","name":"Entities","slug":"entities","singularName":"Entity"},{"_id":"6048c57f255aff62883565cf","lastUpdated":"2021-03-10T13:11:33.734Z","createdOn":"2021-01-21T19:49:39.453Z","name":"Subpages","slug":"subpages","singularName":"Subpage"},{"_id":"6048c57f255aff7f4d3565cd","lastUpdated":"2021-04-27T08:29:33.678Z","createdOn":"2021-02-01T15:52:48.864Z","name":"People","slug":"people","singularName":"Person"},{"_id":"6048c57f255affa0233565ce","lastUpdated":"2021-03-10T13:11:33.724Z","createdOn":"2021-01-12T18:45:12.934Z","name":"Resources","slug":"resources","singularName":"Resource"},{"_id":"6048c57f255affa0983565c7","lastUpdated":"2021-03-11T08:56:11.231Z","createdOn":"2021-01-12T12:38:39.095Z","name":"Documents","slug":"documents","singularName":"Document"},{"_id":"6048c57f255affcd513565c5","lastUpdated":"2021-03-10T13:11:33.643Z","createdOn":"2021-02-01T14:50:21.169Z","name":"Articles","slug":"articles","singularName":"Article"},{"_id":"6048c57f255afff5e33565cc","lastUpdated":"2021-03-10T13:11:33.708Z","createdOn":"2021-01-11T23:30:54.346Z","name":"Locations","slug":"locations","singularName":"Location"}]'
+  recorded_at: Mon, 31 May 2021 11:09:02 GMT
+- request:
+    method: get
+    uri: https://api.webflow.com/collections/6048c57f255aff62883565cf/items?limit=10&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - Bearer <WEBFLOW_API_TOKEN>
+      Accept-Version:
+      - 1.0.0
+      Connection:
+      - close
+      Host:
+      - api.webflow.com
+      User-Agent:
+      - http.rb/5.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 31 May 2021 11:09:03 GMT
+      Etag:
+      - W/"36-9b4c4a1c"
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '58'
+      X-Response-Time:
+      - 39.631ms
+      X-Wf-Rid:
+      - 29b7f00b-7bf7-4fbc-b7f0-d60b30ab328e
+      Content-Length:
+      - '54'
+      Connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: '{"items":[],"count":0,"limit":10,"offset":0,"total":0}'
+  recorded_at: Mon, 31 May 2021 11:09:03 GMT
+recorded_with: VCR 6.0.0
